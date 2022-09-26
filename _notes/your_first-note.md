@@ -1,126 +1,49 @@
----
-title: Your first seed
----
 
-### Welcome!
+### 목표 
+* 대중의 관심사에서 출발하여 반일감정 자극 
+* 미국과 일본의 관계에 대한 이해를 높임
+* 일본이 다시 재무장하는 이유 
 
-This is your first note. You'll find it in the [`notes/`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/tree/master/_notes) directory. 
+### 타겟
 
-### Link syntax
-
-To link to another note, you can use multiple syntaxes. The following four use the "double-bracket" notation ([view the Markdown source file](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/master/_notes/your-first-note.md#link-syntax) to see the underlying syntax).
-
-- Using the note title: [[a note about cats]]
-- Using the note's filename: [[cats]]
-- Using the note's title, with a label: [[A note about cats|link to the note about cats using the note title]]
-- Using the note's filename, with a label: [[cats|link to the note about cats using the note's filename]]
-
-You can organize notes in subdirectories and link them normally. For example, the links above all point to the `_notes/animals/cats.md` file. Here's another example: [[tigers]].
-
-Non-latin languages are supported too: [[안녕하세요]].
-
-Dashes and underscores in file names are supported, and may be omitted in the bracket link syntax. As an example, the `your-first-note.md` file can be linked to with [[your first note]] or [[your-first-note]], or even [[yOuR-FiRsT Note]].
-
-In all cases, if the double-bracket link does not point to a valid note, the double brackets will still be shown, like this: [[there is no note that matches this link]].
-
-Alternatively, you can use regular [Markdown syntax](https://www.markdownguide.org/getting-started/) for links, with a relative link to the other note, like this: [this is a Markdown link to the note about cats](/cats){: .internal-link}. Don't forget to use the `.internal-link` class to make sure the link is styled as an internal link (without the little arrow).
-
-Since the Web is all about HTML, you can always use plain HTML if you want, like this: <a class="internal-link" href="/cats">This is a link to the note about cats with HTML</a>.
-
-Of course, you can also link to external websites, like this: [this is a link to Wikipedia](https://wikipedia.org/). Again, you can use plain HTML if you prefer. Footnotes are also supported and will be treated like internal links.[^1] You can point to other notes in your footnotes.[^2]
-
-[^1]: This is a footnote. For more information about using footnotes, check out the [Markdown Guide](https://www.markdownguide.org/extended-syntax/#footnotes).
-[^2]: This is another footnote that links to the note about [[cats]]. You may also point to [[notes that do not exist]] if you wish.
-
-### Tweet embedding
-
-Note: This behavior is disabled by default for privacy reasons. See "Site configuration" section below to enable it.
-
-You may include a tweet URL on its own line (like below), and it would be replaced with an official Twitter embed if the site configuration demands it.
-
-https://twitter.com/jack/status/20
-
-### Media embedding
-
-You may embed media files within a note using HTML5 media tags. Here's an example for an audio file:
-
-"Jazzy Frenchy" by Benjamin Tissot from bensound.com
-<audio controls>
-  <source src="/assets/jazzyfrenchy.mp3" type="audio/mpeg">
-  Your browser does not support the audio element.
-</audio>
-
-### Site configuration
-
-Some behavior is configurable by tweaking the `_config.yml` file.
-
-**`use_html_extension`**: if you use a static host that doesn't support URLs that don't end with `.html` (such as Neocities), try changing the `use_html_extension` value to `true` in the `_config.yml` file and restart the Jekyll server (or re-build the site). This adds a `.html` extension to note URLs and may resolve issues with links. If you're still having trouble, I recommend using Netlify to host your digital garden: it's free, easy to use, and fully supports this template's features out of the box.
-
-**`open_external_links_in_new_tab`**: when set to `true`, this makes external links open in new tabs. Set to `false` to open all links in the current tab.
-
-**`embed_tweets`**: when set to `true`, tweet URLs on their own lines will be replaced with a Twitter embed. Default value is `false`.
-
-### Automatic bi-directional links
-
-Notice in the "Notes mentioning this note" section that there is another note linking to this note. This is a bi-directional link, and those are automatically created when you create links to other notes.
-
-### Link previews
-
-If you're on a device with mouse support, try hovering your mouse on internal links to preview the notes: [[a note about cats]].
-
-Links that have been previewed will be cached to avoid redundant requests.
-
-### Images and other Markdown goodies
-
-Finally, because you have the full power of Markdown in this template, you can use regular Markdown syntax for various formatting options.
-
-Lists work as expected:
-
-- List element A
-- List element B
-- List element C
-
-1. List element
-2. List element
-3. List element
-
-If you'd like to quote other people, consider using quote blocks:
-
-> Lorem ipsum dolor sit amet
-
-And of course, images look great:
-
-<img src="/assets/image.jpg"/>
-
-You can also ==highlight some content== by wrapping it with `==`.
-
-Non-latin languages are supported too: ==你好==, ==안녕하세요==, ==こんにちは==.
-
-### Code syntax highlighting
-
-You can add code blocks with full syntax color highlighting by wrapping code snippet in triple backticks and specifying the type of the code (`js`, `rb`, `sh`, etc.):
-
-```js
-// Here's a bit of JavaScript:
-console.log('hello!')
-```
-
-```rb
-# And now some Ruby
-def foo(bar)
-  "baz"
-end
-```
-
-```sh
-$ cat /dev/urandom | grep "the answer to life" # shell scripts look nice too
-```
+* 전쟁과 일본의 급속한 경제 발전을 직접 경험한 기성세대에게 일본은 넘어야 할 두려움과 열등감의 대상임과 동시에 경제적으로 도달해야 할 목표와 동경의 대상
+- MZ세대는 ‘선진국’ 일본에 대한 공감은 있으나, 기성세대만큼 동경이나 선망의 대상으로 여기지는 않으며, 한국이 일본보다 경제적, 문화적으로 못하다는 열등감도 갖고 있지 않다. 이들 세대에게 일본은 국가·민족·집단적 반감은 있으나, 반드시 이겨야 하거나 혹은 극복해야 하는 대상이라기보다는 국가적으로 불편한 관계에 있는 조금은 다른 ‘보통의’ 이웃국가로 인식 // 출처 : [[한국의 인식 일본은 한국에게 무엇인가]]
 
 
-### Next steps
+### 전략
+* 일본의 문화와 역사를 편항되지 않게 - 국뽕과 친일을 넘어서 
+* 대중의 관심사가 있는 아이템에서 출발하여 일본의 문화와 역사적 부문에 대한 이해를 높임 
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+### 아이템
+* 천황이 맞을까 일왕이 맞을까?
+	* [[천황이 맞을까 일왕이 맞을까?]]
+	* [[일본 헌법 1조는 무엇일까?]]
+	* 영국 여왕 사망과 일본 왕실 
+	
+* 세습정치의 나라 일본 / 일본의 정치제도
+	* [[대를 잇는 다는 것 슈메이 문화]]
+	* [[펀쿨섹좌 고이즈미 신지로]]
 
-The easiest way to build your own digital garden based on this template is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+* 우영우가 일본넷플릭스 1위라고? 
+	* 욘사마와 일본한류의 역사
+	* 혐한의 역사 
+	* 한일양국 기성세대와 젊은 세대의 역사인식
+		* 한류로 문화에 대한 요구는 높아졌지만 이는 역사인식으로 이어지고 있지는 않음 
+		* 그 뿌리에는 미군정의 역사청산 실패 
+	  
+* 이지메와 무라하치부 
+	* 일본의 뿌리깊은 이지메 문화 - 무라하치부 
+	
+* 유니클로 불매
+	* 일본불매사건의 역사적 맥락
+	* 강제징용사건 
+	* 일본의 경제제재 우리와 일본의 경제적 관계 
+* 아베 사망사건 
 
-Go forth, have fun, and learn new something every day! ✌️
+
+### 레퍼런스 
+* 지금다시, 일본 정독
+* 요즘, 일본
+* 나쁜 나라가 아니라 아픈 나라였다
+* 은근 몰랐던 일본 문화사 
+* 한국의 인식 일본은 한국에게 무엇인가?
