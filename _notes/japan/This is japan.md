@@ -89,4 +89,4 @@
 * 요즘, 일본 http://www.yes24.com/Product/Goods/110133969
 * 나쁜 나라가 아니라 아픈 나라였다 http://www.yes24.com/Product/Goods/89696708
 * 은근 몰랐던 일본 문화사 http://www.yes24.com/Product/Goods/105488737
-* 한국의 인식 일본은 한국에게 무엇인가? 
+* [[일본이 선진국이라는 착각]]
